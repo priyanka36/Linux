@@ -1,0 +1,15 @@
+If we typed something some special characters in shell and it lead us into an unwanted way.Then this could be a special character inthe shell .In order to solve this we put an apostrophie between that command
+echo "Hello World!!"
+here exclamation has a special meaning in bash shell
+The semicolon on the shell lets us run two commands in parallel and then runs them in parallel
+ls is the listing of files ls -l is the longer more detailed listing of files(l is for long)
+To download a file from the web we use a curl command 
+curl "link to the file"
+curl -L "link to file" Follow redirect source to the actual homepage
+curl -o google.html -L "http://google.com"
+curl will show the progress message
+The another shell command is the  cat which is used to display the information contained in a file .It displays the whole information.
+To make less information display we use the less command 
+less 
+/ or b is to go back to previous page 
+q is to quit
